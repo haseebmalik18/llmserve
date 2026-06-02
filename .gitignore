@@ -1,0 +1,36 @@
+# Binaries
+/bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go test artifacts
+*.test
+*.out
+coverage.*
+
+# Model weights (large GGUF files) and runtime artifacts
+/models/
+*.gguf
+*.bin
+
+# llama.cpp build artifacts
+/third_party/
+*.a
+
+# Go module cache (we don't vendor)
+/vendor/
+
+# macOS
+.DS_Store
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
